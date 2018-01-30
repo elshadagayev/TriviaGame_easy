@@ -28,7 +28,7 @@ $(document).ready(function($){
 				},
 				{
 					text: 'Stomach-ache',
-					correct: true,
+					correct: false,
 				},
 				{
 					text: 'Cataracta',
