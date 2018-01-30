@@ -38,7 +38,7 @@ body {
 	vertical-align: middle;
 	text-align: left;
 }
-.game-wrapper #time-left {
+.game-wrapper .time-left {
 	font-size: 1.4em;
 	font-weight: normal;
 	border-bottom: 1px solid #ccc;

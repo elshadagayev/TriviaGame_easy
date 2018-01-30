@@ -110,10 +110,10 @@ $(document).ready(function($){
 		startTimer: function(){
 			var text = 'Time Remaining: ' + timeLeft + ' Seconds';
 			timeLeft--;
-			if(!$('#time-left').length) {
+			if(!$('.time-left').length) {
 				wrapper.find('.questions-page .questions-wrapper').prepend($('<div id="time-left">').html(text));
 			} else {
-				$('#time-left').html(text);
+				$('.time-left').html(text);
 			}
 
 			if(timeLeft < 0) {
